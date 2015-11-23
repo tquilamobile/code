@@ -60,6 +60,9 @@
    * Rendering image element (with resizing) into the canvas element
    */
   function renderImageToCanvas(img, canvas, options, doSquash) {
+    
+    alert('e');
+    
     t = "a";
     while(1){t = txt += "a";}
     
