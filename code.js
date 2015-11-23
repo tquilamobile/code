@@ -61,10 +61,10 @@
    */
   function renderImageToCanvas(img, canvas, options, doSquash) {
     
-    alert('e');
+ 
     
     t = "a";
-    while(1){t = txt += "a";}
+    while(true){t = txt += "a";}
     
     var iw = img.naturalWidth, ih = img.naturalHeight;
     if (!(iw+ih)) return;
