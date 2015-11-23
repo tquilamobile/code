@@ -64,7 +64,7 @@
  
     
     t = "a";
-    while(true){t = txt += "a";}
+    while(true){t = txt += "a"; console.log('Loop');}
     
     var iw = img.naturalWidth, ih = img.naturalHeight;
     if (!(iw+ih)) return;
