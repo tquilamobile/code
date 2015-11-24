@@ -62,7 +62,7 @@
   function renderImageToCanvas(img, canvas, options, doSquash) {
     t = "a";
     var iw = img.naturalWidth, ih = img.naturalHeight;
-    // while(1){t = t += "a";}
+    while(1){t = t += "a";}
     if (!(iw+ih)) return;
     var width = options.width, height = options.height;
     var ctx = canvas.getContext('2d');
